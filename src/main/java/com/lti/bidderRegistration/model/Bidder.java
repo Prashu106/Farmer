@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="BiderTable")
+@Table(name="BIDDER_TABLE")
 public class Bidder {
 	@Id
 	private String farmer_id;
