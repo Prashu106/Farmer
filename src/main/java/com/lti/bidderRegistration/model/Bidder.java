@@ -5,23 +5,23 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="FARMER")
+@Table(name="BiderTable")
 public class Bidder {
 	@Id
-	private int farmer_id;
+	private String farmer_id;
 	private String farmer_name;
 	private String email_id;
-	private int number;
-	private int account_no;
-	private int ifsc_code; 
-	private int aadhar_no;
-	private int pan_no;
-	private int certificate_no;
-	private int pass;
-	private int land_id; 
-	private int location_id;
-	public Bidder(int farmer_id, String farmer_name, String email_id, int number, int account_no, int ifsc_code,
-			int aadhar_no, int pan_no, int certificate_no, int pass, int land_id, int location_id) {
+	private String number;
+	private String account_no;
+	private String ifsc_code; 
+	private String aadhar_no;
+	private String pan_no;
+	private String certificate_no;
+	private String pass;
+	private String land_id; 
+	private String location_id;
+	public Bidder(String farmer_id, String farmer_name, String email_id, String number, String account_no, String ifsc_code,
+			String aadhar_no, String pan_no, String certificate_no, String pass, String land_id, String location_id) {
 		super();
 		this.farmer_id = farmer_id;
 		this.farmer_name = farmer_name;
@@ -40,10 +40,10 @@ public class Bidder {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public int getFarmer_id() {
+	public String getFarmer_id() {
 		return farmer_id;
 	}
-	public void setFarmer_id(int farmer_id) {
+	public void setFarmer_id(String farmer_id) {
 		this.farmer_id = farmer_id;
 	}
 	public String getFarmer_name() {
@@ -58,58 +58,58 @@ public class Bidder {
 	public void setEmail_id(String email_id) {
 		this.email_id = email_id;
 	}
-	public int getNumber() {
+	public String getNumber() {
 		return number;
 	}
-	public void setNumber(int number) {
+	public void setNumber(String number) {
 		this.number = number;
 	}
-	public int getAccount_no() {
+	public String getAccount_no() {
 		return account_no;
 	}
-	public void setAccount_no(int account_no) {
+	public void setAccount_no(String account_no) {
 		this.account_no = account_no;
 	}
-	public int getIfsc_code() {
+	public String getIfsc_code() {
 		return ifsc_code;
 	}
-	public void setIfsc_code(int ifsc_code) {
+	public void setIfsc_code(String ifsc_code) {
 		this.ifsc_code = ifsc_code;
 	}
-	public int getAadhar_no() {
+	public String getAadhar_no() {
 		return aadhar_no;
 	}
-	public void setAadhar_no(int aadhar_no) {
+	public void setAadhar_no(String aadhar_no) {
 		this.aadhar_no = aadhar_no;
 	}
-	public int getPan_no() {
+	public String getPan_no() {
 		return pan_no;
 	}
-	public void setPan_no(int pan_no) {
+	public void setPan_no(String pan_no) {
 		this.pan_no = pan_no;
 	}
-	public int getCertificate_no() {
+	public String getCertificate_no() {
 		return certificate_no;
 	}
-	public void setCertificate_no(int certificate_no) {
+	public void setCertificate_no(String certificate_no) {
 		this.certificate_no = certificate_no;
 	}
-	public int getPass() {
+	public String getPass() {
 		return pass;
 	}
-	public void setPass(int pass) {
+	public void setPass(String pass) {
 		this.pass = pass;
 	}
-	public int getLand_id() {
+	public String getLand_id() {
 		return land_id;
 	}
-	public void setLand_id(int land_id) {
+	public void setLand_id(String land_id) {
 		this.land_id = land_id;
 	}
-	public int getLocation_id() {
+	public String getLocation_id() {
 		return location_id;
 	}
-	public void setLocation_id(int location_id) {
+	public void setLocation_id(String location_id) {
 		this.location_id = location_id;
 	}
 	

@@ -7,6 +7,6 @@ import com.lti.bidderRegistration.model.Bidder;
 
 
 @Repository
-public interface BidderRepository extends JpaRepository<Bidder, Integer> {
+public interface BidderRepository extends JpaRepository<Bidder, String> {
 
 }
